@@ -1,0 +1,173 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: green;
+}
+
+
+/* Cart Button */
+
+#cartButton {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+    padding: 10px 15px;
+
+    background-color: green;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Food Container */
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}
+
+
+/* Food Card */
+
+.food {
+    width: 180px;
+
+    padding: 15px;
+
+    border: 1px solid green;
+    border-radius: 8px;
+
+    background-color: white;
+
+    text-align: center;
+}
+
+
+/* Food Image */
+
+.food img {
+    width: 160px;
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 5px;
+}
+
+
+/* Food Name */
+
+.food h3 {
+    color: #333;
+}
+
+
+/* Add To Cart Button */
+
+.add-btn {
+    padding: 8px 12px;
+
+    background-color: green;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Order Page */
+
+#orderPage {
+    display: none;
+
+    width: 400px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+    border: 1px solid green;
+    border-radius: 8px;
+
+    background-color: white;
+
+    text-align: left;
+}
+
+
+/* Cart Items */
+
+#cartItems {
+    padding-left: 25px;
+}
+
+#cartItems li {
+    margin: 8px 0;
+}
+
+
+/* Input and Address */
+
+#orderForm input,
+#orderForm textarea {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    border: 1px solid green;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+}
+
+#orderForm textarea {
+    height: 80px;
+}
+
+
+/* Form Buttons */
+
+#orderForm button {
+    padding: 9px 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Place Order */
+
+#orderForm button[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+
+

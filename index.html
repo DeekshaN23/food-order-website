@@ -1,0 +1,68 @@
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food Order Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Food Order Website</h1>
+
+    <button id="cartButton">
+        Cart (<span id="cartCount">0</span>)
+    </button>
+
+    <h2>Our Food</h2>
+
+    <div class="food-container" id="foodContainer"></div>
+
+
+    <!-- Order Form -->
+
+    <div id="orderPage">
+
+        <h2>Order Details</h2>
+
+        <h3>Your Items</h3>
+
+        <ul id="cartItems"></ul>
+
+        <form id="orderForm">
+
+            <label>Name</label>
+            <br>
+
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <br><br>
+
+            <label>Address</label>
+            <br>
+
+            <textarea id="address" placeholder="Enter your address"></textarea>
+
+            <br><br>
+
+            <button type="submit">
+                Place Order
+            </button>
+
+            <button type="button" id="backButton">
+                Back
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
